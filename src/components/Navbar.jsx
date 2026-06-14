@@ -31,7 +31,7 @@ export default function Navbar() {
               {l}
             </button>
           ))}
-          <a href="mailto:mandwade.mahesh@gmail.com"
+          <a href="mailto:snagsure.india@gmail.com"
             className="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold px-5 py-2 rounded-lg transition">
             Get In Touch
           </a>
@@ -52,7 +52,7 @@ export default function Navbar() {
               {l}
             </button>
           ))}
-          <a href="mailto:mandwade.mahesh@gmail.com"
+          <a href="mailto:snagsure.india@gmail.com"
             className="bg-blue-600 text-white text-sm font-semibold px-5 py-2 rounded-lg text-center">
             Get In Touch
           </a>

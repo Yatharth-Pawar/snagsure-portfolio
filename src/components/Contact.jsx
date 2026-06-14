@@ -18,7 +18,7 @@ export default function Contact() {
     const wpText = encodeURIComponent(
       `Hello SnagSure,\n\nName: ${form.name}\nEmail: ${form.email}\nMobile: ${form.mobile}\n\nMessage:\n${form.description}`
     );
-    window.open(`https://wa.me/919322700682?text=${wpText}`, "_blank");
+    window.open(`https://wa.me/919665609876?text=${wpText}`, "_blank");
     setSubmitted(true);
     setForm(EMPTY);
     setTimeout(() => setSubmitted(false), 4000);

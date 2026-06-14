@@ -41,7 +41,7 @@ export default function Footer() {
           <h4 className="font-bold text-sm mb-4 text-gray-200 uppercase tracking-wider">Contact</h4>
           <div className="flex flex-col gap-3 text-sm text-gray-400">
             <a href="https://www.snagsure.in" className="hover:text-white transition">🌐 www.snagsure.in</a>
-            <a href="mailto:mandwade.mahesh@gmail.com" className="hover:text-white transition">📧 mandwade.mahesh@gmail.com</a>
+            <a href="mailto:snagsure.india@gmail.com" className="hover:text-white transition">📧 snagsure.india@gmail.com</a>
             <a href="tel:9665609876" className="hover:text-white transition">📱 9665609876</a>
           </div>
         </div>
