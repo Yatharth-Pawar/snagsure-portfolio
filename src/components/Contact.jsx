@@ -14,11 +14,11 @@ export default function Contact() {
       alert("Please fill in all fields.");
       return;
     }
-    const subject = encodeURIComponent(`SnagSure Enquiry from ${form.name}`);
-    const body = encodeURIComponent(
-      `Name: ${form.name}\nEmail: ${form.email}\nMobile: ${form.mobile}\n\nMessage:\n${form.description}`
+    // Send WhatsApp message
+    const wpText = encodeURIComponent(
+      `Hello SnagSure,\n\nName: ${form.name}\nEmail: ${form.email}\nMobile: ${form.mobile}\n\nMessage:\n${form.description}`
     );
-    window.location.href = `mailto:snagsure.india@gmail.com?subject=${subject}&body=${body}`;
+    window.open(`https://wa.me/919322700682?text=${wpText}`, "_blank");
     setSubmitted(true);
     setForm(EMPTY);
     setTimeout(() => setSubmitted(false), 4000);
